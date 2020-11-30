@@ -3,6 +3,13 @@
     <groupId>com.akhiltest</groupId>
     <artifactId>akhiltest-repo</artifactId>
     <version>1.0.0</version>
+    <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/akhilponnala/Testingcheck</url>
+    </repository>
+  </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>com.google.protobuf</groupId>
@@ -77,10 +84,4 @@
             </plugins>
         </pluginManagement>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>internal</id>
-            <url>file://${project.build.directory}/mvn-repo</url>
-        </repository>
-    </distributionManagement>
 </project>
