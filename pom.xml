@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.akhiltest</groupId>
     <artifactId>akhiltest-repo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <distributionManagement>
     <repository>
       <id>github</id>
